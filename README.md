@@ -8,7 +8,8 @@ ACM日常训练
 Blog: http://blog.csdn.net/yick_liao
 
 Email: yickliao@gmail.com
-###鲍黎
+
+### 鲍黎(royecode)
 Email: lbaocode@gamil.com
 ## 训练计划
 一周自练3题(非水题)以上
