@@ -6,6 +6,7 @@
     * Lucas定理(from wikipedia): https://zh.wikipedia.org/zh-cn/%E5%8D%A2%E5%8D%A1%E6%96%AF%E5%AE%9A%E7%90%86
     * 知乎问题: https://www.zhihu.com/question/27664974
     * 数论在ACM中的应用(from blog.csdn): http://blog.csdn.net/danliwoo/article/details/48827813
+    * 中国剩余定理: https://en.wikipedia.org/wiki/Chinese_remainder_theorem
 
 ### 训练题目链接:
     * http://acm.hdu.edu.cn/showproblem.php?pid=5768 unsolved
