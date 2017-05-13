@@ -8,9 +8,9 @@
     * 数论在ACM中的应用(from blog.csdn): http://blog.csdn.net/danliwoo/article/details/48827813
 
 ### 训练题目链接:
-    * http://acm.hdu.edu.cn/showproblem.php?pid=5768
-    * http://acm.hdu.edu.cn/showproblem.php?pid=2521
-    * http://acm.hdu.edu.cn/showproblem.php?pid=1275
-    * http://acm.hdu.edu.cn/showproblem.php?pid=4215
-    * http://acm.hdu.edu.cn/showproblem.php?pid=5072
-    * http://acm.hdu.edu.cn/showproblem.php?pid=3037
+    * http://acm.hdu.edu.cn/showproblem.php?pid=5768 unsolved
+    * http://acm.hdu.edu.cn/showproblem.php?pid=2521 solved
+    * http://acm.hdu.edu.cn/showproblem.php?pid=1275 solved
+    * http://acm.hdu.edu.cn/showproblem.php?pid=4215 solved
+    * http://acm.hdu.edu.cn/showproblem.php?pid=5072 unsolved
+    * http://acm.hdu.edu.cn/showproblem.php?pid=3037 solved
