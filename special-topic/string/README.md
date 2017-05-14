@@ -10,8 +10,10 @@
     * 字典树(思想很简单，主要看看怎么实现就行): [trie](http://www.cnblogs.com/grandyang/p/4491665.html)
 
 ### 训练题目链接:
-    * [HDU 2609]:http://acm.hdu.edu.cn/showproblem.php?pid=2609
+* [HDU 2609]:http://acm.hdu.edu.cn/showproblem.php?pid=2609
+
     * <http://poj.org/problem?id=2185>
+
     * <http://poj.org/problem?id=1816>
     * <http://acm.hdu.edu.cn/showproblem.php?pid=5371>
     * <http://acm.hdu.edu.cn/showproblem.php?pid=1711>
