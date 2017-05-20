@@ -71,3 +71,66 @@ int main() {
     }
     return 0;
 }
+
+
+
+//超时的代码，思路更加清晰
+#include <stdio.h>
+#include <string.h>
+#define MAXN 100000
+char ps[MAXN][7];
+int answers[MAXN + 1];
+
+int match(char *p, char *s) {
+    int a = 0, b = 0, c, lenp = strlen(p), lens = strlen(s), ret = 0;
+    char tp[7] = {0}, ts[21] = {0};
+    while (a < lenp && b < lens) {
+        if (p[a] == '*') {
+            for (c = a + 1; c < lenp; ++c) {
+                tp[c - a - 1] = p[c];
+            }
+            for (c = b; c < lens; ++c) {
+                ts[c - b] = s[c];
+            }
+            for (c = b; c <= lens; ++c) {
+                ret |= match(tp, ts + c - b);
+            }
+            return ret;
+        } else if (p[a] == s[b] || p[a] == '?') {
+            a += 1, b += 1;
+        } else {
+            return 0;
+        }
+    }
+    while (a < lenp && p[a] == '*') {
+        a += 1;
+    }
+    return ret | (a == lenp && b == lens);
+}
+
+int main() {
+    int N, M, a, b;
+    char word[21];
+    scanf("%d%d", &N, &M);
+    for (a = 0; a < N; ++a) {
+        scanf("%s", ps + a);
+    }
+    for (a = 0; a < M; ++a) {
+        scanf("%s", word);
+        answers[0] = 0;
+        for (b = 0; b < N; ++b) {
+            if (match(ps[b], word)) {
+                answers[++answers[0]] = b;
+            }
+        }
+        if (!answers[0]) {
+            printf("Not match\n");
+            continue;
+        }
+        for (b = 1; b <= answers[0]; ++b) {
+            printf("%d", answers[b]);
+            putchar(b == answers[0] ? '\n' : ' ');
+        }
+    }
+    return 0;
+}
